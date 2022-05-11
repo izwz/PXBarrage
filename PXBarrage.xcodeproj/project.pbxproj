@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0D4761A35914459E0F0CF1 /* Pods_PXBarrage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9FF8664F3411AF1ED67F25 /* Pods_PXBarrage.framework */; };
+		A694BB5E282B9FC300D3A5BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB5D282B9FC300D3A5BB /* AppDelegate.m */; };
+		A694BB69282B9FC400D3A5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A694BB68282B9FC400D3A5BB /* Assets.xcassets */; };
+		A694BB6C282B9FC400D3A5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A694BB6A282B9FC400D3A5BB /* LaunchScreen.storyboard */; };
+		A694BB6F282B9FC400D3A5BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB6E282B9FC400D3A5BB /* main.m */; };
+		A694BB7A282BA05400D3A5BB /* NSString+PX.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB75282BA05400D3A5BB /* NSString+PX.m */; };
+		A694BB7B282BA05400D3A5BB /* PXBarrageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB76282BA05400D3A5BB /* PXBarrageViewController.m */; };
+		A694BB8D282BA08B00D3A5BB /* PXBarrageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB7F282BA08A00D3A5BB /* PXBarrageItem.m */; };
+		A694BB8E282BA08B00D3A5BB /* PXBarrageTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB84282BA08A00D3A5BB /* PXBarrageTrack.m */; };
+		A694BB8F282BA08B00D3A5BB /* PXBarrageInterctToast.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB85282BA08A00D3A5BB /* PXBarrageInterctToast.m */; };
+		A694BB90282BA08B00D3A5BB /* PXBarrageItemDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB86282BA08A00D3A5BB /* PXBarrageItemDescriptor.m */; };
+		A694BB91282BA08B00D3A5BB /* PXBarrageCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB88282BA08A00D3A5BB /* PXBarrageCanvasView.m */; };
+		A694BB92282BA08B00D3A5BB /* PXBarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB89282BA08A00D3A5BB /* PXBarrageManager.m */; };
+		A694BB93282BA08B00D3A5BB /* CALayer+PXBarrage.m in Sources */ = {isa = PBXBuildFile; fileRef = A694BB8B282BA08A00D3A5BB /* CALayer+PXBarrage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A694BB59282B9FC300D3A5BB /* PXBarrage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXBarrage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A694BB5C282B9FC300D3A5BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A694BB5D282B9FC300D3A5BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A694BB68282B9FC400D3A5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A694BB6B282B9FC400D3A5BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A694BB6D282B9FC400D3A5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A694BB6E282B9FC400D3A5BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A694BB75282BA05400D3A5BB /* NSString+PX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PX.m"; sourceTree = "<group>"; };
+		A694BB76282BA05400D3A5BB /* PXBarrageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXBarrageViewController.m; sourceTree = "<group>"; };
+		A694BB77282BA05400D3A5BB /* PXMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXMacro.h; sourceTree = "<group>"; };
+		A694BB78282BA05400D3A5BB /* PXBarrageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrageViewController.h; sourceTree = "<group>"; };
+		A694BB79282BA05400D3A5BB /* NSString+PX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PX.h"; sourceTree = "<group>"; };
+		A694BB7D282BA08A00D3A5BB /* PXBarrageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrageItem.h; sourceTree = "<group>"; };
+		A694BB7E282BA08A00D3A5BB /* PXBarrageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrageHeader.h; sourceTree = "<group>"; };
+		A694BB7F282BA08A00D3A5BB /* PXBarrageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXBarrageItem.m; sourceTree = "<group>"; };
+		A694BB80282BA08A00D3A5BB /* PXBarrageInterctToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrageInterctToast.h; sourceTree = "<group>"; };
+		A694BB81282BA08A00D3A5BB /* PXBarrageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrageManager.h; sourceTree = "<group>"; };
+		A694BB82282BA08A00D3A5BB /* PXBarrageItemDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrageItemDescriptor.h; sourceTree = "<group>"; };
+		A694BB83282BA08A00D3A5BB /* PXBarrageTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrageTrack.h; sourceTree = "<group>"; };
+		A694BB84282BA08A00D3A5BB /* PXBarrageTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXBarrageTrack.m; sourceTree = "<group>"; };
+		A694BB85282BA08A00D3A5BB /* PXBarrageInterctToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXBarrageInterctToast.m; sourceTree = "<group>"; };
+		A694BB86282BA08A00D3A5BB /* PXBarrageItemDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXBarrageItemDescriptor.m; sourceTree = "<group>"; };
+		A694BB87282BA08A00D3A5BB /* PXBarrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrage.h; sourceTree = "<group>"; };
+		A694BB88282BA08A00D3A5BB /* PXBarrageCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXBarrageCanvasView.m; sourceTree = "<group>"; };
+		A694BB89282BA08A00D3A5BB /* PXBarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXBarrageManager.m; sourceTree = "<group>"; };
+		A694BB8A282BA08A00D3A5BB /* CALayer+PXBarrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PXBarrage.h"; sourceTree = "<group>"; };
+		A694BB8B282BA08A00D3A5BB /* CALayer+PXBarrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PXBarrage.m"; sourceTree = "<group>"; };
+		A694BB8C282BA08B00D3A5BB /* PXBarrageCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXBarrageCanvasView.h; sourceTree = "<group>"; };
+		BE4A7E667F44B525A703350E /* Pods-PXBarrage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXBarrage.release.xcconfig"; path = "Target Support Files/Pods-PXBarrage/Pods-PXBarrage.release.xcconfig"; sourceTree = "<group>"; };
+		CFB1843709D5D8CB6B4FC441 /* Pods-PXBarrage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXBarrage.debug.xcconfig"; path = "Target Support Files/Pods-PXBarrage/Pods-PXBarrage.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9FF8664F3411AF1ED67F25 /* Pods_PXBarrage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PXBarrage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A694BB56282B9FC300D3A5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0D4761A35914459E0F0CF1 /* Pods_PXBarrage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FABBA71BFCD22B04B998AA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB1843709D5D8CB6B4FC441 /* Pods-PXBarrage.debug.xcconfig */,
+				BE4A7E667F44B525A703350E /* Pods-PXBarrage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A694BB50282B9FC300D3A5BB = {
+			isa = PBXGroup;
+			children = (
+				A694BB5B282B9FC300D3A5BB /* PXBarrage */,
+				A694BB5A282B9FC300D3A5BB /* Products */,
+				7FABBA71BFCD22B04B998AA8 /* Pods */,
+				E07744E6A98D67C9AED89C64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A694BB5A282B9FC300D3A5BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A694BB59282B9FC300D3A5BB /* PXBarrage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A694BB5B282B9FC300D3A5BB /* PXBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				A694BB5C282B9FC300D3A5BB /* AppDelegate.h */,
+				A694BB5D282B9FC300D3A5BB /* AppDelegate.m */,
+				A694BB78282BA05400D3A5BB /* PXBarrageViewController.h */,
+				A694BB76282BA05400D3A5BB /* PXBarrageViewController.m */,
+				A694BB79282BA05400D3A5BB /* NSString+PX.h */,
+				A694BB75282BA05400D3A5BB /* NSString+PX.m */,
+				A694BB77282BA05400D3A5BB /* PXMacro.h */,
+				A694BB7C282BA06B00D3A5BB /* PXBarrage */,
+				A694BB68282B9FC400D3A5BB /* Assets.xcassets */,
+				A694BB6A282B9FC400D3A5BB /* LaunchScreen.storyboard */,
+				A694BB6D282B9FC400D3A5BB /* Info.plist */,
+				A694BB6E282B9FC400D3A5BB /* main.m */,
+			);
+			path = PXBarrage;
+			sourceTree = "<group>";
+		};
+		A694BB7C282BA06B00D3A5BB /* PXBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				A694BB8A282BA08A00D3A5BB /* CALayer+PXBarrage.h */,
+				A694BB8B282BA08A00D3A5BB /* CALayer+PXBarrage.m */,
+				A694BB87282BA08A00D3A5BB /* PXBarrage.h */,
+				A694BB8C282BA08B00D3A5BB /* PXBarrageCanvasView.h */,
+				A694BB88282BA08A00D3A5BB /* PXBarrageCanvasView.m */,
+				A694BB7E282BA08A00D3A5BB /* PXBarrageHeader.h */,
+				A694BB80282BA08A00D3A5BB /* PXBarrageInterctToast.h */,
+				A694BB85282BA08A00D3A5BB /* PXBarrageInterctToast.m */,
+				A694BB7D282BA08A00D3A5BB /* PXBarrageItem.h */,
+				A694BB7F282BA08A00D3A5BB /* PXBarrageItem.m */,
+				A694BB82282BA08A00D3A5BB /* PXBarrageItemDescriptor.h */,
+				A694BB86282BA08A00D3A5BB /* PXBarrageItemDescriptor.m */,
+				A694BB81282BA08A00D3A5BB /* PXBarrageManager.h */,
+				A694BB89282BA08A00D3A5BB /* PXBarrageManager.m */,
+				A694BB83282BA08A00D3A5BB /* PXBarrageTrack.h */,
+				A694BB84282BA08A00D3A5BB /* PXBarrageTrack.m */,
+			);
+			path = PXBarrage;
+			sourceTree = "<group>";
+		};
+		E07744E6A98D67C9AED89C64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FF8664F3411AF1ED67F25 /* Pods_PXBarrage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A694BB58282B9FC300D3A5BB /* PXBarrage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A694BB72282B9FC400D3A5BB /* Build configuration list for PBXNativeTarget "PXBarrage" */;
+			buildPhases = (
+				93B6638F23559F9556E0A5D2 /* [CP] Check Pods Manifest.lock */,
+				A694BB55282B9FC300D3A5BB /* Sources */,
+				A694BB56282B9FC300D3A5BB /* Frameworks */,
+				A694BB57282B9FC300D3A5BB /* Resources */,
+				8F3F099156608EB47BE90670 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXBarrage;
+			productName = PXBarrage;
+			productReference = A694BB59282B9FC300D3A5BB /* PXBarrage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A694BB51282B9FC300D3A5BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A694BB58282B9FC300D3A5BB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A694BB54282B9FC300D3A5BB /* Build configuration list for PBXProject "PXBarrage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A694BB50282B9FC300D3A5BB;
+			productRefGroup = A694BB5A282B9FC300D3A5BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A694BB58282B9FC300D3A5BB /* PXBarrage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A694BB57282B9FC300D3A5BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A694BB6C282B9FC400D3A5BB /* LaunchScreen.storyboard in Resources */,
+				A694BB69282B9FC400D3A5BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F3F099156608EB47BE90670 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PXBarrage/Pods-PXBarrage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PXBarrage/Pods-PXBarrage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PXBarrage/Pods-PXBarrage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B6638F23559F9556E0A5D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PXBarrage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A694BB55282B9FC300D3A5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A694BB92282BA08B00D3A5BB /* PXBarrageManager.m in Sources */,
+				A694BB8E282BA08B00D3A5BB /* PXBarrageTrack.m in Sources */,
+				A694BB5E282B9FC300D3A5BB /* AppDelegate.m in Sources */,
+				A694BB6F282B9FC400D3A5BB /* main.m in Sources */,
+				A694BB7A282BA05400D3A5BB /* NSString+PX.m in Sources */,
+				A694BB8D282BA08B00D3A5BB /* PXBarrageItem.m in Sources */,
+				A694BB93282BA08B00D3A5BB /* CALayer+PXBarrage.m in Sources */,
+				A694BB91282BA08B00D3A5BB /* PXBarrageCanvasView.m in Sources */,
+				A694BB7B282BA05400D3A5BB /* PXBarrageViewController.m in Sources */,
+				A694BB90282BA08B00D3A5BB /* PXBarrageItemDescriptor.m in Sources */,
+				A694BB8F282BA08B00D3A5BB /* PXBarrageInterctToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A694BB6A282B9FC400D3A5BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A694BB6B282B9FC400D3A5BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A694BB70282B9FC400D3A5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A694BB71282B9FC400D3A5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A694BB73282B9FC400D3A5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB1843709D5D8CB6B4FC441 /* Pods-PXBarrage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95GVBJ2C6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PXBarrage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwz.PXBarrage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A694BB74282B9FC400D3A5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4A7E667F44B525A703350E /* Pods-PXBarrage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95GVBJ2C6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PXBarrage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwz.PXBarrage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A694BB54282B9FC300D3A5BB /* Build configuration list for PBXProject "PXBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A694BB70282B9FC400D3A5BB /* Debug */,
+				A694BB71282B9FC400D3A5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A694BB72282B9FC400D3A5BB /* Build configuration list for PBXNativeTarget "PXBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A694BB73282B9FC400D3A5BB /* Debug */,
+				A694BB74282B9FC400D3A5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A694BB51282B9FC300D3A5BB /* Project object */;
+}
