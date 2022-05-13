@@ -70,6 +70,7 @@
 }
 
 - (void)prepareForReuse {
+    [self removeFromSuperview];
     [self.layer removeAllAnimations];
     self.descriptor = nil;
     self.isInterrupted = NO;

@@ -11,6 +11,11 @@
 
 @implementation PXBarrageManager
 
+- (void)dealloc {
+    [self.barrageCanvasView stop];
+    [self.barrageCanvasView removeFromSuperview];
+}
+
 - (instancetype) init {
     self = [super init];
     if (self) {

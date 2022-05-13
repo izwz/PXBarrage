@@ -118,22 +118,22 @@
 		A694BB7C282BA06B00D3A5BB /* PXBarrage */ = {
 			isa = PBXGroup;
 			children = (
-				A694BB8A282BA08A00D3A5BB /* CALayer+PXBarrage.h */,
-				A694BB8B282BA08A00D3A5BB /* CALayer+PXBarrage.m */,
 				A694BB87282BA08A00D3A5BB /* PXBarrage.h */,
+				A694BB7E282BA08A00D3A5BB /* PXBarrageHeader.h */,
+				A694BB81282BA08A00D3A5BB /* PXBarrageManager.h */,
+				A694BB89282BA08A00D3A5BB /* PXBarrageManager.m */,
 				A694BB8C282BA08B00D3A5BB /* PXBarrageCanvasView.h */,
 				A694BB88282BA08A00D3A5BB /* PXBarrageCanvasView.m */,
-				A694BB7E282BA08A00D3A5BB /* PXBarrageHeader.h */,
-				A694BB80282BA08A00D3A5BB /* PXBarrageInterctToast.h */,
-				A694BB85282BA08A00D3A5BB /* PXBarrageInterctToast.m */,
 				A694BB7D282BA08A00D3A5BB /* PXBarrageItem.h */,
 				A694BB7F282BA08A00D3A5BB /* PXBarrageItem.m */,
 				A694BB82282BA08A00D3A5BB /* PXBarrageItemDescriptor.h */,
 				A694BB86282BA08A00D3A5BB /* PXBarrageItemDescriptor.m */,
-				A694BB81282BA08A00D3A5BB /* PXBarrageManager.h */,
-				A694BB89282BA08A00D3A5BB /* PXBarrageManager.m */,
 				A694BB83282BA08A00D3A5BB /* PXBarrageTrack.h */,
 				A694BB84282BA08A00D3A5BB /* PXBarrageTrack.m */,
+				A694BB80282BA08A00D3A5BB /* PXBarrageInterctToast.h */,
+				A694BB85282BA08A00D3A5BB /* PXBarrageInterctToast.m */,
+				A694BB8A282BA08A00D3A5BB /* CALayer+PXBarrage.h */,
+				A694BB8B282BA08A00D3A5BB /* CALayer+PXBarrage.m */,
 			);
 			path = PXBarrage;
 			sourceTree = "<group>";

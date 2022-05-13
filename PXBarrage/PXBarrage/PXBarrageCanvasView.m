@@ -74,6 +74,7 @@
             [item removeFromSuperview];
         }
         for (PXBarrageTrack *track in self.tracks) {
+            [track.animatingItems removeAllObjects];
             [track resetTrackAvailableTime];
         }
         [self.animatingItems removeAllObjects];
